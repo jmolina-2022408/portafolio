@@ -1,0 +1,86 @@
+/* Estilos generales de CSS */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+#lienzo {
+  border: 1px solid #333;
+  background-color: #fff;
+  margin: 20px auto;
+  display: block;
+}
+
+#contenedor-palabra {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#mensaje {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Cambia el color del mensaje cuando se gana */
+#mensaje.ganar {
+  color: #00cc00;
+  /* Cambia el color a verde */
+}
+
+/* Cambia el color del mensaje cuando se pierde */
+#mensaje.perder {
+  color: #ff0000;
+  /* Cambia el color a rojo */
+}
+
+#vidas-restantes {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+#alfabeto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Estilos para el div de letras utilizadas */
+#letras-utilizadas {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el ahorcado */
+lienzo {
+  border: 1px solid #333;
+  background-color: #fff;
+  margin: 20px auto;
+  display: block;
+}

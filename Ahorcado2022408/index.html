@@ -1,0 +1,54 @@
+<!-- 
+    Nombre: José Andres Molina Hinestroza 
+    Carne: 2022408
+    Código Tecnico: IN5AM
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Juego del Ahorcado</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+  <body>
+    <h1>Juego del Ahorcado</h1>
+    <canvas id="lienzo" width="400" height="400"></canvas>
+    <div id="contenedor-palabra"></div>
+    <div id="mensaje"></div>
+    <div id="vidas-restantes">Vidas restantes: 7</div>
+    <div id="alfabeto">
+      <!-- Botones para cada letra del abecedario -->
+      <button id="a" onclick="adivinarLetra('a')">A</button>
+      <button id="b" onclick="adivinarLetra('b')">B</button>
+      <button id="c" onclick="adivinarLetra('c')">C</button>
+      <button id="d" onclick="adivinarLetra('d')">D</button>
+      <button id="e" onclick="adivinarLetra('e')">E</button>
+      <button id="f" onclick="adivinarLetra('f')">F</button>
+      <button id="g" onclick="adivinarLetra('g')">G</button>
+      <button id="h" onclick="adivinarLetra('h')">H</button>
+      <button id="i" onclick="adivinarLetra('i')">I</button>
+      <button id="j" onclick="adivinarLetra('j')">J</button>
+      <button id="k" onclick="adivinarLetra('k')">K</button>
+      <button id="l" onclick="adivinarLetra('l')">L</button>
+      <button id="m" onclick="adivinarLetra('m')">M</button>
+      <button id="n" onclick="adivinarLetra('n')">N</button>
+      <button id="o" onclick="adivinarLetra('o')">O</button>
+      <button id="p" onclick="adivinarLetra('p')">P</button>
+      <button id="q" onclick="adivinarLetra('q')">Q</button>
+      <button id="r" onclick="adivinarLetra('r')">R</button>
+      <button id="s" onclick="adivinarLetra('s')">S</button>
+      <button id="t" onclick="adivinarLetra('t')">T</button>
+      <button id="u" onclick="adivinarLetra('u')">U</button>
+      <button id="v" onclick="adivinarLetra('v')">V</button>
+      <button id="w" onclick="adivinarLetra('w')">W</button>
+      <button id="x" onclick="adivinarLetra('x')">X</button>
+      <button id="y" onclick="adivinarLetra('y')">Y</button>
+      <button id="z" onclick="adivinarLetra('z')">Z</button>
+    </div>
+
+    <!-- Div para mostrar las letras utilizadas -->
+    <div id="letras-utilizadas">Letras utilizadas:</div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
